@@ -3,8 +3,8 @@ NESTJS
 2. npm run start:dev
 3. Generate commands
     a. nest g module "nameModule"
-    b.
-
+    b.  nest g service "nameService" --no-spec
+4. @Global() usato come decorator in un modulo rende il modulo disponibile in ogni modulo.
 
 DOCKER
 1. docker compose up --> run di un Volume
