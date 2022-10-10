@@ -5,6 +5,8 @@ NESTJS
     a. nest g module "nameModule"
     b.  nest g service "nameService" --no-spec
 4. @Global() usato come decorator in un modulo rende il modulo disponibile in ogni modulo.
+5. Validatori: "npm install class-validator class-transformer" e nel main.js: "app.useGlobalPipes(new ValidationPipe());"
+    a.
 
 DOCKER
 1. docker compose up --> run di un Volume
